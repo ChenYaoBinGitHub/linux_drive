@@ -17,4 +17,6 @@ modules:
 clean distclean:
 	rm -f *.o *.mod.c .*.*.cmd *.ko
 	rmmod hellomodule	#delete drive node
+	rm -rf /dev/hellodev	#delete devoce node 
+
 endif
